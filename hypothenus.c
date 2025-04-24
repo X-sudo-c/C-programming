@@ -9,11 +9,11 @@ int main(){
     double b;
     double c;
 
-    printf("what is A \n" );
+    printf("what is A: \n" );
     scanf("%lf", &a);
 
 
-    printf("What is B \n");
+    printf("What is B: \n");
     scanf("%lf", &b);
 
 
