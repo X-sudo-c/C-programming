@@ -10,6 +10,8 @@ void func(){
 
 //hahahahahahhahahahahahhahahahah
 
+//hahahahhahahahahahahahahahahahahaha
+
 int main(){
     char name [25];
     printf("WHat is your name:\n");
