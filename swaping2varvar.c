@@ -1,13 +1,24 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
 
     char x = 'X';
     char y = 'Y';
 
+    char temp;
 
-    printf("Ill do this later");
-    printf("My KAli linux crashed i have to set up a new one");
+    temp = x;
+    x = y;
+    y = temp;
 
+    printf("x = %c\n", x);
+    printf("y = %c\n", y);
+
+    return 0;
+
+
+
+   
 
 }
