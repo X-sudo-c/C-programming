@@ -20,7 +20,7 @@ int main(){
 
     for (int i = 0; i < sizeof(students)/sizeof(students[0]); i++)
     {
-        printf("-12%s\n", students[i].name);
+        printf("%-12s\t", students[i].name);
         printf("%.2f\n", students[i].gpa);
 
     }
